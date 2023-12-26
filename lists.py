@@ -14,3 +14,5 @@ print(a)
 #  we can create a list with items of different data types.
 c = [65155, "dogesh", False, 115.5616]
 print(c)
+
+# We can also use slicing as we did in strings.
