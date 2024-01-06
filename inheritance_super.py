@@ -2,7 +2,7 @@ class Person:
     country = "India"
 
     def __init__(self):
-        print("Initalizing person...\n")
+        print("Initalizing person...")
 
     def takeBreath(self):
         print("I am breathing...")
@@ -11,8 +11,8 @@ class Employee(Person):
     company = "Honda"
 
     def __init__(self):
-        super().__init__()
-        print("Initalizing employee...\n")
+        super().__init__() 
+        print("Initalizing employee...")
 
     def getSalary(self):
         print(f"Salary is {self.salary}")
@@ -24,6 +24,10 @@ class Employee(Person):
 class programmer(Employee):
     company = "Fiverr"
 
+    # def __init__(self):
+    #     super().__init__() 
+    #     print("Initalizing programmer...")
+
     def getSalary(self):
       print(f"No salary to programmer")  
 
@@ -31,11 +35,11 @@ class programmer(Employee):
         super().takeBreath() # this wil also print the attribute of parent class
         print("I am programmer")
 
-p = Person()
-p.takeBreath()
+# p = Person()
+# p.takeBreath()
 
-e = Employee()
-e.takeBreath()
+# e = Employee() 
+# e.takeBreath()
 
 pr = programmer()
 pr.takeBreath()
