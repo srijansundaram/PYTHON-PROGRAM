@@ -4,7 +4,7 @@ class Person:
     def takeBreak(self):
         print("I am breathing...")
     
-class Employee:
+class Employee(Person):
     company = "Honda"
 
     def getSalary(self):
@@ -22,11 +22,11 @@ class programmer(Employee):
     # def takeBreak(self):
     #     print("I am programmer")
 
-p = Person()
-e = Employee()
+# p = Person()
+# e = Employee()
 pr = programmer()
 
-p.takeBreak()
-e.takeBreak()
+# p.takeBreak()
+# e.takeBreak()
 pr.takeBreak() # this will print the class attributes of the nearest parent as it doesn't have take break attribute
-
+# print(pr.country)
