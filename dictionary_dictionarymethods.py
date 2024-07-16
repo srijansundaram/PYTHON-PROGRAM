@@ -3,7 +3,7 @@ myDict = {
     "Python": "Programming Language",
     "Marks": [1, 2, 5],
     "anotherdict": {"Python": "Easy and Simple"},
-    1: 2
+    1: 2  # 1 is also a key which stores 2 as its value
 }
  
 # print(myDict.keys()) # this will print the keys of myDict which is fast, python, etc.
