@@ -1,4 +1,3 @@
-```markdown
 # 🐍 Python Learning Repository
 
 Welcome to my Python learning repository! 🎉 This repo contains all the Python scripts, notebooks, and projects I created while learning Python. It’s a collection of practice exercises, small projects, and experiments as I explored the language and its ecosystem.
@@ -22,7 +21,7 @@ Welcome to my Python learning repository! 🎉 This repo contains all the Python
    ```bash
    git clone https://github.com/srijansundaram/PYTHON-PROGRAM.git
    cd PYTHON-PROGRAM
-````
+   ````
 
 2. Make sure you have Python installed (preferably Python 3.x). Check your version:
 
@@ -62,6 +61,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This repo is primarily for personal learning. However, feel free to fork it and use it for your own Python practice!
 
-```
 
 
