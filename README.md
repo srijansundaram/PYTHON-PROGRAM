@@ -1,5 +1,3 @@
-Here’s a **README.md** you can use for your repository:
-
 ```markdown
 # 🐍 Python Learning Repository
 
